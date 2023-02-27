@@ -1,0 +1,331 @@
+ner_tags,tokens,lnt,lnn
+"['B-Politician', 'I-Politician']","['威廉·威伯福斯（william', 'wilberforce，1759年8月24日－1833年7月29日），英國國會下議院議員（1780年至1825年）、慈善家、廢奴主義者。']",2,2
+"['O', 'B-Politician', 'O']","['羅賓·蕾哈娜·芬蒂，nh（英語：robyn', 'rihanna', 'fenty，/riˈænə/，1988年2月20日－），是一名巴巴多斯的歌手、詞曲作家、演員、商人、時尚設計師及外交官。']",3,3
+"['O', 'B-Politician']","['约瑟夫·帕克斯顿（joseph', 'paxton，1803年4月3日－1865年6月1日）为英国园艺师及建筑师，其设计了水晶宮']",2,2
+"['B-Politician', 'I-Politician']","['神力女超人（英語：wonder', 'woman，也译作神奇女超人）是一名由dc漫畫創造的虛構超級英雄角色。']",2,2
+"['B-Politician', 'I-Politician', 'I-Politician', 'O', 'O', 'O', 'O', 'O']","['彼得·威廉·波塔（南非語：pieter', 'willem', 'botha', '[ˈpitər', 'ˈvələm', 'ˈbʊəta]，1916年1月12日－2006年10月31日），是南非政治家，外号“大鳄鱼”（die', 'groot', 'krokodil）。']",8,8
+"['B-ORG', 'I-ORG']","['爛番茄（英語：rotten', 'tomatoes）是一家美国电影和电视评论線上聚合网站。']",2,2
+"['B-ORG', 'I-ORG']","['根據2019年6月的統計，facebook', 'watch的每月觀看人數達7.2億人，每日觀看人數達1.4億人，平均每人每日觀看26分鐘。']",2,2
+"['B-ORG', 'I-ORG', 'I-ORG', 'B-ORG']","['牛津大學（英語：university', 'of', 'oxford；非正式：oxford', 'university，或：oxford；勳銜簡稱：oxon）位於英格蘭東南區域牛津郡牛津市。']",4,4
+"['B-ORG', 'B-ORG', 'I-ORG']","['每間合作公司會製作包含product', 'red商標的產品，作為經由銷售product', 'red產品而增加收入的回報，利潤的其中一個百分比會捐贈給全球基金。']",3,3
+"['B-ORG', 'B-ORG', 'O', 'O']","['雅達利（英語：atari', '/əˈtɑːri/，nasdaq：atar）是一个品牌名称，自1972年成立以来被多个实体拥有，目前由法國遊戲發行商雅達利sa（原英寶格）的子公司雅達利互動公司（atari', 'interactive,', 'inc.）持有。']",4,4
+"['B-ORG', 'I-ORG']","['西田集團（英文：westfield', 'group）是一家跨國性商場管理集團，總部位於澳洲悉尼，集團的業務包括商場管理、發展、設計及建設、財富管理、物業管理、租賃以及市場活動等等。']",2,2
+"['B-ORG', 'O', 'O']","['“qvc”的名称源自“quality,', 'value,', 'convenience”（质量、价格、便捷）的首字母缩写。']",3,3
+"['B-ORG', 'O']","['aomg（韓語：에이오엠지(주)，簡稱：에이오엠지；英語：aomg）是由jay', 'park成立於2013年的嘻哈廠牌，是唱片企劃及製作公司。']",2,2
+"['B-ORG', 'B-ORG', 'I-ORG']","['ea', 'sports（又作ea', 'sports）是美商藝電旗下製造研發體育电子游戏的品牌。']",3,3
+"['O', 'B-ORG']","['丹麦国家铁路（丹麥語：danske', 'statsbaner），简称dsb，是丹麦的一家铁路运营商，也是斯堪的纳维亚最大的铁路运营商。']",2,2
+"['B-ORG', 'O', 'O', 'O']","['petco，全称petco动物耗材公司（英語：petco', 'animal', 'supplies,', 'inc.），是一家美国宠物连锁店，它在圣迭戈和圣安东尼奥设有运营中心。']",4,4
+['B-ORG'],['t-mobile是德国电信的品牌，属于freemove联盟。'],1,1
+"['O', 'O', 'O', 'O', 'O', 'O', 'B-ORG']","['全國運動汽車競賽協會（national', 'association', 'for', 'stock', 'car', 'auto', 'racing，縮寫：nascar，中文名稱為納斯卡賽車，又稱全美改裝車競賽），至今是在美國最大、最受認可的賽車競速團體。']",7,7
+"['O', 'B-ORG']","['2015年，google被重组至alphabet', 'inc.，google和calico成为新公司的主要部分。']",2,2
+['B-ORG'],['borsalino（博爾薩利諾）是一个義大利專業製帽品牌。'],1,1
+"['B-ORG', 'O', 'B-ORG', 'O']","['这些产品按照gnu宽通用公共许可证（lgpl）或gnu通用公共许可证（gpl）许可的开源硬件和软件分发的，arduino', '允许任何人制造', 'arduino', '板和软件分发。']",4,4
+['B-ORG'],['路透通讯社（英語：reuters），简称路透社，是位列世界前三的多媒體新聞通訊社，提供各類新聞和金融數據，在128個國家運行。'],1,1
+['B-ORG'],['酒吧或酒館（英語：bar、pub或tavern；日语：酒場），是提供啤酒、葡萄酒、洋酒、鸡尾酒等酒類饮料的消费场所，除提供酒精飲品外，也提供非酒精飲品及小吃。'],1,1
+['B-ArtWork'],['許多靈長類動物也有親吻的行為。'],1,1
+"['O', 'O', 'B-OtherPER']","['约翰·克里斯蒂安·法布里丘斯（丹麥語：johann', 'christian', 'fabricius，1745年1月7日－1808年3月3日）是一位丹麦昆虫学家，因通过昆虫的口器进行昆虫分类的研究而知名。']",3,3
+"['B-OtherPER', 'I-OtherPER']","['埃纳尔·赫茨普龙（丹麥語：ejnar', 'hertzsprung，姓又譯赫茲史普，1873年10月8日－1967年10月21日），生於丹麦哥本哈根，著名天文学家。']",2,2
+"['B-OtherPER', 'I-OtherPER', 'I-OtherPER', 'O', 'O']","['彼得二世·卡拉喬爾傑（peter', 'ii', 'karađorđević，西里尔字母：петар', 'ii', 'карађорђевић，1923年9月6日－1970年11月3日)，為南斯拉夫王國卡拉喬傑維奇王朝末代君主。']",5,5
+"['B-OtherPER', 'I-OtherPER', 'I-OtherPER']","['本娥·奇特拉（印尼語：bunga', 'citra', 'lestari，简称：bcl，1983年3月22日－）是一位印尼知名女歌手及演員。']",3,3
+"['B-WrittenWork', 'O']","['pitchfork（曾用名pitchfork', 'media），是一家美國的音樂网刊，專於發布音樂評論、音樂新聞、及音樂家訪談。']",2,2
+['B-WrittenWork'],['2004年5月创刊，时尚传媒集团旗下刊物，英国emap集团以及fhm给了《男人装》最佳的国际版权支持以及内容的共享。'],1,1
+"['B-WrittenWork', 'I-WrittenWork', 'I-WrittenWork']","['天體物理數據系統（英語：astrophysics', 'data', 'system通常簡稱為ads）由美国国家航空航天局（nasa）開發，是一個有著超過700萬個有或沒有進行過同行評審的天文學和物理學線上數據資料庫。']",3,3
+['B-WrittenWork'],['2016年1月，bizx收购了slashdot传媒，包括slashdot.org和sourceforge。'],1,1
+"['B-WrittenWork', 'I-WrittenWork', 'O', 'O']","['它最出名的出版物是《time', 'out》文化信息周刊，该周刊于1968年由托尼·艾略特（tony', 'elliott）创办並與bob', 'harris共同擔任編輯工作，在早期，該雜誌每期發行量大約是5000本。']",4,4
+"['B-WrittenWork', 'O', 'O', 'O', 'O']","['阿爾奈-湯普森分類法（英語：aarne-thompson', 'classification', 'system），簡稱at分類法，是一套民間故事（folk', 'tales）與童話（fairy', 'tales）分類的方法。']",5,5
+['B-WrittenWork'],['赋，古代文体名，是一種押韻的文體，由楚辭演變而來。'],1,1
+['B-WrittenWork'],['禱告，或称祈祷、祈求、祈願是人主動和上帝（天主）、神靈或靈性的個體溝通來讚美、祈求、懺悔或者表達自己或別人的思想或願望的行為。'],1,1
+"['B-WrittenWork', 'I-WrittenWork']","['《芝加哥論壇報》（英語：chicago', 'tribune），美國銷量第5高的报纸。']",2,2
+"['B-WrittenWork', 'I-WrittenWork', 'O']","['運動畫刊（sports', 'illustrated）是由authentic', 'brands所擁有的美國體育週刊。']",3,3
+['B-WrittenWork'],['旗下资产包括《gamepro》杂志和gamepro.com网站。'],1,1
+"['O', 'B-Athlete', 'I-Athlete']","['阿克夏·庫馬（印地語：अक्षय', 'कुमार，英語：akshay', 'kumar，1967年9月9日－）是印度的演員。']",3,3
+"['B-Athlete', 'I-Athlete']","['克里斯·拜尔德（英語：chris', 'baird，1982年2月25日－），北愛爾蘭足球運動員，司職右閘，效力英冠球隊打吡郡。']",2,2
+"['O', 'B-Athlete', 'I-Athlete']","['埃萊妮·達尼利都（希臘語：ελένη', 'δανιηλίδου，羅馬化：eleni', 'daniilidou，1982年9月19日－），出生于塞萨洛尼卡，希腊女子网球运动员。']",3,3
+"['B-Athlete', 'I-Athlete']","['弗朗提斯科·塞馬克（捷克語：františek', 'čermák，1976年11月14日－）是一位捷克職業網球運動員。']",2,2
+"['B-Athlete', 'I-Athlete']","['王薇薇（英語：vera', 'wang；1949年6月27日－），著名美国华裔时尚设计师，主要活跃在纽约市。']",2,2
+"['B-Athlete', 'I-Athlete', 'O']","['罗伯特·莱万多夫斯基（波蘭語：robert', 'lewandowski，波蘭語發音：[ˈrɔbɛrt', 'lɛvanˈdɔfskʲi]，1988年8月21日－），波蘭足球運動員，司職前鋒，現效力于西班牙足球甲级联赛俱乐部巴塞隆納和代表波蘭國家足球隊參加國際賽。']",3,3
+"['B-Facility', 'I-Facility', 'O', 'O']","['chez', 'panisse是位於美國加州柏克萊市的一所餐廳，由廚師alice', 'waters與柏克萊加州大學比較文學教授paul', 'aratow於1971年開辦。']",4,4
+"['B-Facility', 'I-Facility', 'I-Facility']","['阿灵顿国家公墓（英語：arlington', 'national', 'cemetery），位于美利坚合众国弗吉尼亚州阿靈頓，美國國防部五角大楼旁边，1864年6月15日开始作为军人公墓使用。']",3,3
+['B-Artist'],['gray（韓語：그레이，1986年12月8日－），本名李星和（韓語：이성화），韓國歌手、說唱歌手及音樂製作人。'],1,1
+"['B-Artist', 'I-Artist']","['迈克尔·波伦（英語：michael', 'pollan，1955年2月6日－）是一位美国作家、专栏作家、行動主義者、新闻学教授及柏克萊加州大學科学和环境新闻学奈特项目的主任。']",2,2
+"['B-Artist', 'I-Artist']","['贝蒂·弗里丹（英語：betty', 'friedan，1921年2月4日－2006年2月4日），為一位美国作家、编辑，在近代女權運動中扮演著重要的角色，其著作【女性的奧秘】為提倡自由主義女性主義的經典。']",2,2
+"['O', 'O', 'B-Artist']","['阿曼多·克里斯蒂安·佩雷斯（英語：armando', 'christian', 'pérez，1981年1月15日－），美國古巴裔饒舌歌手，以其藝名“嘻哈鬥牛梗”（或作「嘻哈鬥牛梗」）或“皮普”（pitbull）為人熟知。']",3,3
+"['B-Artist', 'I-Artist']","['昆图斯·恩纽斯（拉丁語：quintus', 'ennius，前239年－前169年）也作恩尼乌斯、埃纽斯，是罗马共和国时期的诗人、剧作家，被认为是最具影响力的早期拉丁语诗人和古罗马文学的奠基人。']",2,2
+"['B-Artist', 'I-Artist']","['娜塔莉·格蘭特（natalie', 'grant，1971年12月21日－）是名美國當代基督教音樂創作歌手。']",2,2
+"['B-Artist', 'I-Artist', 'I-Artist']","['尼古拉斯·温丁·雷芬（丹麥語：nicolas', 'winding', 'refn，1970年9月29日－）是一名丹麦男导演、编剧和制片人。']",3,3
+"['B-Artist', 'I-Artist', 'I-Artist']","['馬克·艾略特·扎克伯格（英語：mark', 'elliot', 'zuckerberg，1984年5月14日－）出生於美國紐約州白原市，facebook創始人、meta董事长兼首席执行官，同时也是一名软件设计师。']",3,3
+"['B-Artist', 'I-Artist']","['伯纳德·赫尔曼（英語：bernard', 'herrmann，1911年6月29日－1975年12月24日），美国电影配乐作曲家。']",2,2
+"['B-Artist', 'I-Artist', 'O', 'O', 'O', 'O', 'O', 'O']","['戴蒙·亞邦，obe（英語：damon', 'albarn，1968年3月23日－）為知名英國音樂人，身兼blur樂團（中譯：布勒）的主唱、虛擬樂團gorillaz（中譯：街頭霸王）的主腦、the', 'good,', 'the', 'bad', '&', 'the', 'queen（中譯：好人壞人與女王）的主唱，更參與了著名中文小說《西遊記》所改編舞台劇的作曲。']",8,8
+"['B-Artist', 'I-Artist', 'I-Artist']","['西摩·马丁·利普塞特（seymour', 'martin', 'lipset，1922年3月18日－2006年12月31日），美国著名比较社会学家，研究政治社会学、工会组织、社会分层、舆论和知识分子个人生涯的社会学。']",3,3
+"['O', 'O', 'B-Artist', 'I-Artist']","['肯尼斯·布魯斯·戈雷里克（kenneth', 'bruce', 'gorelick，1956年6月5日－），艺名“肯尼·基”（kenny', 'g），生于华盛顿州西雅图市，美国著名薩克斯風演奏家，作曲家。']",4,4
+"['O', 'O', 'O', 'B-Artist', 'B-Artist', 'I-Artist']","['他在13岁时便发行了出道专辑《beware', 'of', ""dog》，之后以小鲍沃（lil'"", 'bow', 'wow）作为艺名从事演出，直到2003年发行专辑《unleashed》时，改为鲍沃（bow', 'wow）。']",6,6
+"['B-Artist', 'I-Artist', 'O', 'O']","['夏卡·康（chaka', 'khan，1953年3月23日－，本名yvette', 'marie', 'stevens），生于芝加哥，是一位美国歌手和作曲家，在1970年代开始出名。']",4,4
+"['B-Artist', 'I-Artist', 'O', 'O', 'O']","['50', 'cent（1975年7月6日－），本名柯蒂斯·詹姆斯·杰克逊三世（英語：curtis', 'james', 'jackson', 'iii），美国说唱歌手。']",5,5
+"['B-Artist', 'I-Artist']","['马丁·布伯（德語：martin', 'buber，1878年2月8日－']",2,2
+"['O', 'O', 'B-Artist']","['贾森·特伦斯·菲利普斯（英語：jason', 'terrance', 'phillips，1975年5月27日－），艺名賈達基斯（英語：jadakiss），美國知名黑人饒舌歌手，來自紐約布魯克林區，同時也是嘻哈團體d-block的成員之一兼股東。']",3,3
+"['O', 'O', 'B-Artist', 'I-Artist']","['湯姆·貝克（thomas', 'stewart', 'baker，通常稱為tom', 'baker，1934年1月20日－）是一位英國演員，知名於從1974年到1981年在英國長壽科幻劇《神秘博士》中演出的第四任博士。']",4,4
+"['O', 'O', 'B-Artist', 'I-Artist']","['1986年成立時的原陣容有阿拉伯王子、dr.', 'dre、eazy-e和冰塊酷巴，dj', 'yella和mc', 'ren是後來才加入的。']",4,4
+"['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-Artist']","['除了red', 'hot', 'chili', ""peppers,他还与很多艺人合作过，包括jane's"", 'addiction、the', 'mars', 'volta及alanis', 'morissette.受疯克音乐和朋克摇滚的影响，flea着重于纯朴而极简的贝斯演奏，视复杂化为应适度运用的技术。']",8,8
+"['B-Artist', 'I-Artist', 'O']","['杰西·薇尔（英語：jessie', 'ware；1984年10月15日－）是一名英国女歌手，与pmr所签约的词曲作者，最出名的是她的2012单曲wildest', 'moments和running。']",3,3
+"['O', 'O', 'O', 'B-Artist']","['马绍尔·布鲁斯·马瑟斯三世（英語：marshall', 'bruce', 'mathers', 'iii，1972年10月17日－），其艺名為埃米纳姆（eminem，/ˌɛmɪˈnɛm/，風格化為eminǝm）是一位美國著名饒舌歌手、詞曲作家、唱片製作人、演員及電影製作人。']",4,4
+"['B-Artist', 'O', 'O']","['她在2006年发布了自己的第二张专辑《ciara:', 'the', 'evolution》，又大获成功，在全球售出超过200万份份。']",3,3
+"['O', 'O', 'O', 'B-Artist']","['喬安娜·李文絲奇（英語：joanna', 'noëlle', 'blagden', 'levesque，1990年12月20日－），藝名為jojo，是美國一位r&b和流行音樂歌手、唱片製作人和演員。']",4,4
+"['O', 'O', 'B-Artist', 'I-Artist']","['路易斯·艾倫·瑞德（英語：lewis', 'allan', 'reed，1942年3月2日－2013年10月27日），暱稱為路·瑞德（lou', 'reed）是一位美國搖滾樂歌手與吉他手。']",4,4
+"['O', 'O', 'B-Artist']","['肖恩·科里·卡特（英語：shawn', 'corey', 'carter，1969年12月4日－），艺名杰斯（jay-z，形象化为jay-z），是一名美国饒舌歌手、企业家、词曲作家和音樂制作人，他是世界上最畅销的音乐艺人之一，也是有史以来最受好评的饶舌歌手之一。']",3,3
+['B-VisualWork'],['天使（英語：angel），本指上天的使者，在其它不少宗教中也有類似概念，並汉譯為“天使”。'],1,1
+"['B-VisualWork', 'I-VisualWork', 'I-VisualWork', 'O', 'O']","['hit', 'the', 'stage（韓語：힛', '더', '스테이지）是韓國mnet電視台的舞蹈競技綜藝節目，自2016年7月27日起，逢韓國時間星期三晚間11時開始播放，每集約60分鐘。']",5,5
+"['B-VisualWork', 'O']","['《毒梟》（英語：narcos）是一部美國犯罪網路電視劇，由克里斯·布蘭卡托、carlo', 'bernard和道格·米羅創作和監製。']",2,2
+['B-VisualWork'],['《sixteen》（韓語：식스틴）是jyp娛樂在2015年與mnet合作開播的新女子音樂團體選拔及生存實境節目，以七名預備成員及九名練習生作為主角，進行各種唱歌、舞蹈等嚴格訓練並競爭，最後獲選的成員會成為jyp娛樂新女團「twice」的成員出道。'],1,1
+"['B-VisualWork', 'I-VisualWork']","['丑女贝蒂（ugly', 'betty）是第64届金球奖最佳喜剧／音乐类电视剧集奖得主。']",2,2
+"['B-VisualWork', 'I-VisualWork', 'O', 'O']","['《春天不是读书天》（英語：ferris', ""bueller's"", 'day', 'off，香港译《咪走堂》，台湾译《蹺課天才》）是一部1986年上映的的美國喜劇電影，由約翰·休斯編劇、聯合製作和導演。']",4,4
+['B-VisualWork'],['電視動畫「b-project～鼓動＊ambitious～（b-project〜鼓動*アンビシャス〜）」於2016年7月播放。'],1,1
+"['O', 'B-VisualWork', 'I-VisualWork']","['頑皮豹英語：the', 'pink', 'panther（1963）年首次在美國播出、1985年首次在台灣播出、1988年在台視播出、1989年在華視播出、2000年在中都卡通台播出、2005年在緯來綜合台播出、2011年在卡通頻道播出。']",3,3
+"['B-VisualWork', 'O', 'O', 'O', 'O']","['《懶人小鎮》（英語：lazytown）是冰島的一個由', 'lts', 'garðbær', 'studios', '製作的兒童教育音樂喜劇節目。']",5,5
+['B-VisualWork'],['愛可以包括靈魂或心靈上的愛、對法律與組織的愛、對自己的愛、對食物的愛、對金錢的愛、對學習的愛、對權力的愛、對名譽的愛、對他人的愛等，數之不盡。'],1,1
+"['B-VisualWork', 'I-VisualWork', 'O']","[""《开心汉堡店》（英語：bob's"", 'burgers，又翻作鲍勃的汉堡店），是一部由loren', 'bouchard创作的美国动画片，自2011年1月9日起在美國福克斯电视台播出。']",3,3
+"['B-VisualWork', 'I-VisualWork', 'I-VisualWork']","['《早安美國》（英語：good', 'morning', 'america，簡稱gma），是在美國廣播公司（abc）播出的晨間新聞性節目，於1975年11月3日開播。']",3,3
+"['B-VisualWork', 'I-VisualWork', 'B-VisualWork']","['《cbs晚間新聞》（英語：cbs', 'evening', 'news）是美國哥倫比亞廣播公司（cbs）的旗艦全國新聞聯播節目。']",3,3
+"['O', 'B-VisualWork']","['《橘郡风云》（英語：the', 'o.c.）是一套美國電視影集，經常被定位為肥皂劇類型。']",2,2
+['B-VisualWork'],['《玩偶特工》（英語：dollhouse）是美國的一部科幻電視劇，在福克斯電視台播出，共播出了27集。'],1,1
+"['O', 'B-VisualWork', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']","['安東尼·史沃福（anthony', 'swofford）1991年的波斯灣戰爭回憶錄改編，原著書名為《鍋蓋頭：海軍陸戰隊員參加波斯灣戰爭及其他一些戰役的編年史》（jarhead:', 'a', ""marine's"", 'chronicle', 'of', 'the', 'gulf', 'war', 'and', 'other', 'battles）。']",12,12
+"['B-VisualWork', 'I-VisualWork', 'I-VisualWork', 'I-VisualWork']","['影片播出兩年後，在劇中飾演羅比羅滕的演員斯特凡·卡爾·斯蒂芬森宣布罹患了膽管癌；消息公開後，在網路上開始出現大量使用we', 'are', 'number', 'one的改編作品，也有民眾請願希望能讓斯蒂芬森能在2017年的歐洲歌唱大賽中，代表冰島出賽演唱這首歌。']",4,4
+"['B-VisualWork', 'I-VisualWork', 'I-VisualWork']","['《緣邀知音》（英語：a', 'melody', 'looking）是由黎明執導及落場演出的一部音樂電影，於2006年11月舉行慈善上映會。']",3,3
+"['B-VisualWork', 'I-VisualWork', 'B-VisualWork']","['《bbc', 'look', 'east》（意為「東望」），英國廣播公司（bbc）地區電視新聞節目，廣播範圍覆蓋諾福克郡、薩福克郡、埃塞克斯郡、劍橋郡、赫特福德郡、北安普敦郡、貝德福德郡、白金漢郡北部和林肯郡南鄀。']",3,3
+['B-VisualWork'],['newsround是英國廣播公司面向6～16歲兒童的新聞節目，從1972年4月4日開始播出到現'],1,1
+"['O', 'O', 'B-HumanSettlement']","['厄瓜多尔共和国（西班牙語：república', 'del', 'ecuador），通稱厄瓜多尔（西班牙語：ecuador），是位於南美洲西北部的國家，北面與哥倫比亞相鄰，南接祕魯，西面為太平洋，另包括距離厄瓜多本土1000公里的加拉巴哥群島。']",3,3
+"['B-HumanSettlement', 'O']","['利物浦（英語：liverpool', '/ˈlɪvərpuːl/），舊譯梨花埠，是英格兰西北部著名港口城市，為默西赛德都市郡的5个自治市之一，由利物浦市议会治理。']",2,2
+"['O', 'O', 'B-HumanSettlement', 'O', 'O', 'O', 'O', 'B-HumanSettlement', 'O', 'B-HumanSettlement', 'O']","['伊戈爾·西科爾斯基基輔國際機場（烏克蘭語：міжнародний', 'аеропорт', 'київ', 'імені', 'ігоря', 'сікорського；iata代码：iev；icao代码：ukkk），通稱基輔國際機場（烏克蘭語：міжнародний', 'аеропорт', 'київ），是一座位於烏克蘭基輔市索洛米揚卡區的民用機場，因其位置南近茹良尼（жуляни）而也稱基輔茹良尼國際機場（міжнародний', 'аеропорт', 'київ', 'жуляни），與鲍里斯波尔国际机场列為基輔兩大聯外機場。']",11,11
+"['O', 'O', 'O', 'O', 'O', 'B-HumanSettlement', 'O']","['安特卫普（荷蘭語：antwerpen，荷兰语发音：', '[ˈɑntʋɛrpə(n)]', '（', '聆聽）；法語：anvers，法语发音：[ɑ̃vɛʁs]', '（', '聆聽）；德语旧名：antorf、antorff），比利时弗拉芒大區安特衛普省港口城市', '，同时也是该省省会，北端与荷兰接壤，通行荷蘭語，是弗拉芒社群的一部分，人口529,247人（2020年1月1日），是比利时人口最多的城市；都会区人口120万人，是比利时第二大都会区，仅次于布鲁塞尔首都大区。']",7,7
+"['B-HumanSettlement', 'I-HumanSettlement', 'I-HumanSettlement']","['华尔顿堡滩（英語：fort', 'walton', 'beach），是美国佛罗里达州奧卡魯沙縣下属的一座城市。']",3,3
+['B-HumanSettlement'],['基督城（英語：christchurch，又譯基督城、基督堂市，簡稱chc）是紐西蘭第二大城市和南島第一大城。'],1,1
+"['B-HumanSettlement', 'B-HumanSettlement', 'O', 'O']","['約翰尼斯堡（南非語：johannesburg', '[jʊəˈɦanəsbœrχ]，英語：johannesburg', '/dʒoʊˈhænɪsbɜːrɡ/', ""joh-han-iss-burg；科薩語：egoli，祖魯語：egoli），简称約堡（英語：jo'burg），是南非最大的城市與經濟、文化中心，同時亦為世界上最大的50個城市之一。""]",4,4
+"['B-HumanSettlement', 'O', 'O']","['鲁昂（法語：rouen，法语：[ʁwɑ̃]', '（', '聆聽）或[ʁuɑ̃]），法国西北部城市，诺曼底大区滨海塞纳省的一个市镇，同时也是所在大区的首府及所在省的省会，下辖鲁昂区。']",3,3
+"['B-PublicCorp', 'O', 'O', 'O']","['mcafee,', 'inc.（/ˈmækəfiː/，原名intel', 'security', 'group）是一間美國的跨國電腦安全軟體公司，總部位於加州聖塔克拉拉，是世界上最大的安全软件专业公司之一。']",4,4
+"['B-PublicCorp', 'B-PublicCorp', 'O', 'O', 'O']","['gopro公司（英語：gopro,', 'inc.，風格化作gopro，前稱：伍德曼實驗室，woodman', 'labs,', 'inc），是總部位於美國加利福尼亞州聖馬刁（近三藩市）的科技公司，2002年由尼克‧伍德曼創立，專門研製及生產供極限運動使用的高畫質錄影器材運動相機，並開發行動應用程式（moblie', 'app）及視頻剪輯軟體。']",5,5
+['B-PublicCorp'],['ebay（nasdaq：ebay，中文：電子灣、億貝、易贝）是可讓全球民眾上網買賣物品的線上拍賣及購物網站。'],1,1
+"['B-PublicCorp', 'O']","['alphabet公司（英語：alphabet', 'inc.，中国大陆标准译名为字母表，台灣譯為字母控股），是位於美國加州的控股公司，於2015年10月2日成立，由google公司組織分割而來，並繼承了google公司的上市公司地位以及股票代號。']",2,2
+['B-PublicCorp'],['合併消息剛宣佈時，新公司曾一度打算名為「bct.telus」，後來則簡化成「telus」並沿用至今。'],1,1
+"['B-PublicCorp', 'B-PublicCorp', 'O', 'O']","['ihi公司（英語：ihi', 'corporation，日语：株式会社ihi），前稱「石川島播磨重工業」（英語：ishikawajima-harima', 'heavy', 'industries），是日本一家提供建設工程監造、航空動力與航海系統之零件的重工業公司。']",4,4
+"['B-PublicCorp', 'O']","['輝瑞（英語：pfizer,', 'inc.，/ˈfaɪzər/）是源自美國的跨國製藥、生物技術公司，營運總部位於紐約，研發總部位於康涅狄格州的格羅頓市。']",2,2
+"['B-PublicCorp', 'B-PublicCorp', 'O']","['通播集团（英語：comcast', 'corporation），曾用名“康卡斯特控股公司（comcast', 'holdings）”，是一家位于美国的全球通讯业综合企业集团；通过xfinity品牌，其收入在全球电信及有线电视市场均位居第一。']",3,3
+"['B-PublicCorp', 'I-PublicCorp', 'O']","['雨果博斯（德語：hugo', 'boss', 'ag）是一個德國的時尚品牌，主攻高價位男裝成衣及配件，創辦人是雨果·斐迪南·博斯（1885–1948）。']",3,3
+"['B-PublicCorp', 'O', 'O']","['directv是自美國加利福尼亞州埃尔塞贡多市開始推行的直播衛星（direct', 'broadcast', 'satellite；dbs）服務，此服務發送數位衛星電視及音效到美國居家。']",3,3
+['B-PublicCorp'],['equinor（前稱：挪威國家石油公司、挪威國家石油、挪威國家石油海德羅），是一家擁有石油和天然氣業務開展的跨國公司和上市公司，更被福布斯雜誌評為世界第11大油氣公司和第26大公司。'],1,1
+"['B-PublicCorp', 'O']","['cloudflare（cloudflare,', 'inc.）是一家總部位於舊金山的美國跨國科技企業，以向客戶提供基於反向代理的內容傳']",2,2
+"['B-PublicCorp', 'O']","['intuit', 'inc.是一家總部位於美國加利福尼亞州山景城的跨國計算機軟件公司，主要製作金融和退稅相關的軟件。']",2,2
+"['O', 'B-PublicCorp', 'O', 'B-PublicCorp']","['拉扎德公司由亞歷山大·拉扎德(alexandre', 'lazard)、艾里·拉扎爾(elie', 'lazare)和西蒙·拉扎德(simon', 'lazard)兄弟三人於1848年創立。']",4,4
+"['B-PublicCorp', 'O']","['現今總部位於東京都港區港南的索尼城（sony', 'city）。']",2,2
+"['O', 'O', 'B-PublicCorp']","['j·森寶利公共有限公司（j', 'sainsbury', ""plc，常稱sainsbury's），或译塞恩斯伯里、英伯瑞，是英國第二大連鎖超市公司，佔约16%的英國市場份額。""]",3,3
+"['B-PublicCorp', 'O']","['網絡器械公司（英語：netapp,', 'inc.）是一間美國上市科技公司，以網路設備和服務販賣為主。']",2,2
+"['B-PublicCorp', 'O']","['除此之外其透過子公司oricon', 'me出版雜誌。']",2,2
+['B-PublicCorp'],['cyberagent（日语：サイバーエージェント，英語：cyberagent）是一家日本網路公司，以ameba相關事業和網路廣告為主要業務內容，總部位於東京澀谷。'],1,1
+"['B-PublicCorp', 'O']","['凱捷管理顧問公司（英語：capgemini，euronext：cap），總部設於法國巴黎，由法國企業家serge', 'kampf於']",2,2
+"['B-PublicCorp', 'O', 'O']","['asana', '(/əˈsɑːnə/)', '是一个网络和移动应用，它的设计是为了改善团队交流和协作的方式。']",3,3
+"['B-PublicCorp', 'I-PublicCorp']","['通用動力公司（英語：general', 'dynamics，nyse：gd）是一家美国的國防企业集团。']",2,2
+['B-PublicCorp'],['倍耐力（pirelli）是一家義大利輪胎公司，乃世界第五大汽車輪胎生產商，總部設於米蘭，業務遍及160個國家和地區。'],1,1
+['B-PublicCorp'],['安泰人壽（英語：aetna，nyse：aet）是美国一家医疗保險公司，总部在康乃狄克州哈特福。'],1,1
+"['B-PublicCorp', 'I-PublicCorp']","['dish', 'network是美國科羅拉多州恩格爾伍德的一家衛星廣播服務提供商，為美國用戶提供衛星電視、衛星網絡、廣播、移动通信等服務。']",2,2
+"['B-PublicCorp', 'O', 'O']","['team17', 'group', 'plc是一家位于英格兰韦克菲尔德的遊戲開發商和電子遊戲發行商。']",3,3
+"['B-MusicalGRP', 'I-MusicalGRP']","['霧都魔堡（挪威語：dimmu', 'borgir）是挪威交響黑金屬樂團，1993年成立於奧斯陸。']",2,2
+['B-MusicalGRP'],['migos或称米戈斯，是一支来自美国佐治亚州劳伦斯维尔的嘻哈团体，组建于2009年。'],1,1
+"['O', 'O', 'B-MusicalGRP', 'I-MusicalGRP']","['不过由于另一晋级的组合rough', 'copy放弃了比赛，评委路易·華許决定让george加入到triple', 'j中，组成union', 'j继续他们的比赛。']",4,4
+['B-MusicalGRP'],['该公司最初名为东洋陶器株式会社，随后更名为东陶机器株式会社，后於2007年起直接改用toto作为公司名称至今。'],1,1
+"['B-MusicalGRP', 'B-MusicalGRP', 'O', 'O', 'O', 'O', 'O']","['除了音樂本行以外，2ne1四人四色的鮮明形象也漸漸受到國際時尚圈注目，知名設計師jeremy', 'scott與成員們私交甚篤，近年來2ne1也常常被目擊出席各種重量級時尚場合，如2ne1出席美國模特兒演出，cl出席2014年的巴黎時尚週、cl也被邀請出席路易威登series3展覽、saint', 'laurent', 'fashion', 'show、newyork', 'fashion', 'show等。']",7,7
+"['B-MusicalGRP', 'I-MusicalGRP', 'O']","['hilltop', 'hoods是一个澳大利亚的hip', 'hop组合。']",3,3
+['B-MusicalGRP'],['他們在電影中扮演和現實一樣的角色，飾演mcfly自己，是男主角培訓的樂團mcfly。'],1,1
+"['B-MusicalGRP', 'I-MusicalGRP', 'O', 'O', 'O', 'O', 'O']","['wanna', 'one（朝鮮語：워너원', 'wo', 'neo', 'won）是依據mnet節目《produce', '101', '第二季》的出道承諾，於2017年成立的韓國男子演唱團體，以投票方式決定成員；成員包括尹智聖、河成雲、黃旼炫、邕聖祐、金在奐、姜丹尼爾、朴志訓、朴佑鎭、裴珍映、李大輝、賴冠霖。']",7,7
+"['B-MusicalGRP', 'I-MusicalGRP']","['野獸男孩（英語：beastie', 'boys）是一組來自美國紐約布魯克林和曼哈頓的嘻哈音樂團體。']",2,2
+"['B-MusicalGRP', 'I-MusicalGRP', 'O']","['monsta', 'x（韓語：몬스타엑스；日语：モンスタ・エックス），韓國hip', 'hop男子音樂組合，是starship娛樂通過練習生生存節目《no.mercy》所推出的男子團體，也是继2011年boyfriend后该经纪公司starship娛樂时隔4年再次推出的男子偶像团体，最初由七位成員shownu、元虎、民赫、基賢、亨元、周憲、i.m組成，由shownu擔任隊長。']",3,3
+['B-MusicalGRP'],['dream5是日本一隊由青少年所組成的歌舞團體，簡稱「ドリ5」（どりご），成立於2009年。'],1,1
+"['B-MusicalGRP', 'O', 'O', 'O', 'O', 'O', 'O']","['2002年女主唱lisa單飛之後，但m-flo並未解散，而是挑選大量一線藝人合作，如與crystal', 'kay合作的《reeewind!》，與山本領平與melody合作的《miss', 'you》，與boa合作的《love', 'bug》，也曾與化學超男子、dragon', 'ash、阪本龍一、安室奈美惠、sowelu、chara、倖田來未、酷懶之味、猴子把戲、bonnie', 'pink、加藤米莉亚、日之內繪美、minmi、yoshika（聲線極似宇多田光）、big', 'bang、2ne1等，不拘格套，有時也約前主唱lisa跨刀合作，並在亞洲各地巡演，風行全亞洲，2015年在臺灣開唱。']",7,7
+['B-MusicalGRP'],['超級殺手（英語：slayer）是美國的鞭擊金屬樂團，1981年成立於加州亨廷頓公園。'],1,1
+"['B-MusicalGRP', 'O', 'O', 'O', 'O']","['3oh!3（發音為「three', 'oh!', 'three」）是一個來自美國科羅拉多州博爾德的流行電音兩人團體，由nathaniel', 'motte和sean', 'foreman組成。']",5,5
+"['B-MusicalGRP', 'I-MusicalGRP', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']","['traveling', 'wilburys', '（有人翻譯為', '漂泊）是一個英、美搖滾樂團，由前披頭四成員乔治·哈里森（george', 'harrison）、e.l.o的主唱傑夫·琳恩（jeff', 'lynne）、', '羅伊·歐賓森（roy', 'orbison）、湯姆·佩蒂（tom', 'petty）和巴布·狄倫（bob', 'dylan）所組成。']",10,10
+"['B-MusicalGRP', 'I-MusicalGRP', 'O', 'O', 'O']","['比吉斯（英語：bee', 'gees，或称比知乐队、蜜蜂合唱團）是一隊來自英國的三人兄弟乐队組合，成員包括大哥巴里·吉布（barry', 'gibb）、及雙胞胎羅賓·吉布（robin', 'gibb）和莫里斯·吉布（maurice', 'gibb），他们跨越多个音乐流派，把摇滚乐、迪斯可、節奏藍調融为一体，風靡了澳洲、英國、美國，甚至世界各地的民眾。']",5,5
+['B-MusicalGRP'],['銀椅合唱團（英語：silverchair）是澳洲另類搖滾樂團。'],1,1
+"['B-MusicalGRP', 'O']","['根據韓國文化振興院「2017韓流白皮書」，將twice', '列為第三代k-pop女團代表，表彰其對於推廣韓國流行音樂國際化的重要貢獻。']",2,2
+"['B-MusicalGRP', 'I-MusicalGRP', 'I-MusicalGRP', 'O', 'O', 'O', 'O']","['double', 's', '301（韓語：더블', '에스', '301，舊名ss301（더블에스삼공일）或triple', 's（트리플에스））是dsp', 'entertainment於2008年11月至2009年6月止所推出的企劃組合。']",7,7
+"['B-MusicalGRP', 'I-MusicalGRP']","['頑強的d（英語：tenacious', 'd）是一個由傑克·布萊克和凱爾·蓋斯於1994年在加利福尼亞州洛杉磯組成的二人喜劇搖滾樂隊，共發行了三張專輯，即《頑強的d》（2001）、《搖滾之神》（2006）和《浴火重生》（2012）。']",2,2
+"['O', 'B-MusicalGRP']","['官方歌迷俱樂部名稱為「triple', 's」（sss），簡稱為ts，前2個s的意思和ss501一樣，而第三個s表示支持（support），又ss501也稱呼歌迷們為「豌豆公主」，因從高處望下來一個個薄荷綠色的氣球像豌豆。']",2,2
+"['O', 'B-MusicalGRP', 'O', 'O']","['聲音花園', '（英語：soundgarden）是一支美國的搖滾樂團，於1984年在華盛頓州的西雅圖組建，最初的陣容是主音兼鼓手克里斯·康奈爾、吉他手金·泰伊爾（kim', 'thayil）、貝斯手山本宏（hiro', 'yamamoto）。']",4,4
+"['B-MusicalGRP', 'I-MusicalGRP', 'O']","['dynamic', 'duo是一韓國嘻哈歌唱組合，在2003年出道，2004年5月17日推出首張專輯《taxi', 'driver》。']",3,3
+"['B-MusicalGRP', 'I-MusicalGRP']","['lexington', 'bridge是一個活躍在2006年至2009年的男子團體。']",2,2
+"['B-MusicalGRP', 'I-MusicalGRP']","['范·海伦（van', 'halen），是一支美国重金属摇滚乐队，因乐队吉他手艾迪·范·海伦及其兄鼓手艾力克斯·范·海伦而得名。']",2,2
+"['B-MusicalGRP', 'B-MusicalGRP']","['infinite', 'h（韓語：인피니트에이치/인피니트h），為韓國男子團體infinite的前分隊，原由infinite的hoya和東雨兩名成員組成。']",2,2
+['B-MusicalGRP'],['少数时候被记为abba。'],1,1
+"['O', 'O', 'O', 'O', 'O', 'B-MusicalGRP', 'O', 'O']","['防彈少年團（朝鮮語：방탄소년단／防彈少年團', 'bangtan', 'sonyeon', 'dan；日语：防弾少年団／ぼうだんしょうねんだん', 'bōdan', 'shōnen-dan），常被稱為bts，韓國男子音樂團體，隸屬bighit', 'music經紀公司旗下，為bighit', 'music第一個獨立製作培養的團體，由創辦人兼音樂製作人房時爀和製作人pdogg栽培。']",8,8
+"['B-MusicalGRP', 'I-MusicalGRP']","['雪巡警（英語：snow', 'patrol）是一個1993年成立於蘇格蘭鄧迪大學，曾獲格林美獎提名最佳搖滾歌曲獎的另類搖滾樂團。']",2,2
+['B-MusicalGRP'],['six60是來自紐西蘭的五人樂隊。'],1,1
+"['O', 'O', 'B-MusicalGRP']","['尼哥有態度（原為niggaz', 'wit', 'attitudes，後多採用縮寫n.w.a），無官方譯名，華人世界通常翻譯為尼哥有態度，少數翻譯為有態度的黑人，是來自美國加州洛杉磯的嘻哈團體。']",3,3
+['B-MusicalGRP'],['團體組成初期擁有9名成員，因而取名「9nine」，不過在經過數次成員變動後，最终在2010年確立了當中5個人的成員地位，並以5人組合身分繼續活動，但保留「9nine」的名字，2016年7月23日，川島海荷退團，以4人組持續活動。'],1,1
+"['O', 'B-Cleric', 'B-Cleric', 'O', 'O']","['伊拉斯谟，全名德西德里乌斯·伊拉斯谟·罗特罗达穆斯（desiderius', 'erasmus', 'roterodamus；1466年10月27日－1536年7月12日），也译作伊拉斯姆斯、埃拉斯默斯、艾拉思姆斯、伊拉斯莫斯，史学界通称鹿特丹的伊拉斯谟（erasmus', 'von', 'rotterdam），是文藝復興時期尼德兰（今荷兰和比利时）著名的人文主义思想家和神学家、天主教神父，為北方文藝復興的代表人物。']",5,5
+['B-PrivateCorp'],['开合zippo上盖面的声音响亮且容易让人记住，一些用户发明了很多zippo打火机奇特的玩法。'],1,1
+"['B-Scientist', 'I-Scientist', 'I-Scientist']","['乔治·戈登·米德（george', 'gordon', 'meade，1815年12月31日－1872年11月6日），美国陆军少将，曾参加过第二次塞米诺尔战争、美墨战争和美国南北战争。']",3,3
+"['B-Scientist', 'O', 'O']","['蜘蛛俠（英語：spider-man）是漫威漫畫創作的一名超級英雄，本名為彼得·班傑明·帕克（peter', 'benjamin', 'parker），由作家／編輯史丹·李及作家／畫家史蒂夫·迪特科所創造，首次登場於《驚人幻想》#']",3,3
+"['B-Scientist', 'I-Scientist']","['赫爾曼·何樂禮（英語：herman', 'hollerith，1860年2月29日－1929年11月17日）或譯赫爾曼·霍爾瑞斯，是一位德裔美籍的統計學家和發明家。']",2,2
+"['B-OtherPROD', 'O']","['由於挖土堆窯需要不少體力，炕窯後來漸漸被可以重複使用的饢坑和石窯（masonry', 'oven）取代。']",2,2
+"['O', 'O', 'O', 'B-OtherPROD', 'O']","['game', 'boy', 'color（日语：ゲームボーイカラー，', '简称gbc）是日本任天堂公司开发的一种电池驱动彩色屏幕掌上游戏机，是原game', 'boy的加强版。']",5,5
+"['B-OtherPROD', 'I-OtherPROD']","['任天堂switch（英语：nintendo', 'switch，简称ns或switch）是日本任天堂公司出品的電子遊戲機，於2017年3月3日在日本、北美、歐洲和香港發售，同年12月1日在韩国和台湾发售，2019年12月10日在中国大陆发售。']",2,2
+['B-OtherPROD'],['另外对于有的生物来说具有毒性而对于别的生物来说无毒的“选择毒性”在自然界中也存在。'],1,1
+['B-OtherPROD'],['索尼互动娱乐于2012年12月28日在日本官网上发布消息，確認ps2正式终止销售。'],1,1
+['B-OtherPROD'],['与大多数指令集相比，risc-v指令集可以自由地用于任何目的，允许任何人设计、制造和销售risc-v芯片和软件而不必支付給任何公司專利費。'],1,1
+['B-OtherPROD'],['随后，imageon被更名为adreno。'],1,1
+['B-OtherPROD'],['棺材，亦稱壽棺、棺槨、棺柩、棺木、壽木，廣東地方又把此稱之為四塊半、四快版或四塊版，是裝斂人的屍體之葬具，槨是棺材外之套棺。'],1,1
+"['B-OtherPROD', 'O']","['還有，民用船通常稱為船（古稱舳艫）、船舶、輪機、舫，軍用船稱為艦（古稱艨艟），小型船稱為艇、', '舢舨、筏或舟，其總稱為艦艇。']",2,2
+"['B-OtherPROD', 'I-OtherPROD', 'O']","['2009年9月，playstation', '3推出較薄及更大容量的改良機型ps3', 'slim。']",3,3
+"['B-OtherPROD', 'O', 'B-OtherPROD']","['任天堂gamecube（日语：ニンテンドー', 'ゲームキューブ，nintendo', 'gamecube，中文区和日本缩写为“ngc”，欧美缩写为“gcn”）是任天堂于2001年在日本和北美、2002年在欧洲和澳洲发布的家用游戏机。']",3,3
+"['B-OtherPROD', 'I-OtherPROD', 'O', 'B-OtherPROD']","['amstrad', 'cpc（colour', 'personal', 'computer的缩写）是amstrad在1984至1990年间制作的一系列8位元家用电脑。']",4,4
+"['O', 'B-OtherPROD']","['康懋達國際（commodore', 'international）收購了amiga公司後，在1985年將amiga引入到市場裡。']",2,2
+"['B-OtherPROD', 'B-OtherPROD', 'O', 'O']","['2017年11月7日，xbox', 'one的性能升級版主机xbox', 'one', 'x正式发售。']",4,4
+"['O', 'B-OtherPROD']","['颱風戰鬥機（英語：eurofighter', 'typhoon，又常被稱為ef-2000）是一款雙發動機，採前翼加上三角翼（鴨式佈局）設計的中型多用途戰機。']",2,2
+"['B-OtherPROD', 'O']","['傳真（英語：fax，全名称为facsimile，源自拉丁文“fac', 'simile”，意为“製造相似”）是一種用以傳送文件複印本的電訊技術；而傳真機就是負責傳送這些文件的機器。']",2,2
+"['O', 'B-OtherPROD', 'B-OtherPROD', 'I-OtherPROD']","['在2020年6月的苹果全球开发者大会上，苹果公司首席执行官tim', 'cook正式宣布，mac电脑系列将在两年内从intel公司的cpu迁移至自行设计的apple芯片，截至2022年4月，除mac', 'pro外，其他所有蘋果產品皆搭載apple', 'silicon架構晶片。']",4,4
+['B-OtherPROD'],['即便如此，在vor、gps导航出现的今天，ndb仍然由于价格低廉、易于架设等原因在世界各地广泛使用。'],1,1
+"['B-OtherPROD', 'O']","['2013年6月28日起，wii互联网服务逐步停止；自2018年3月起，用户无法再购买wii点数，所有剩余点数从2019年1月31日开始变得无法使用并永久丢失；2019年1月31日起，只有游戏的重新下载、系统软件更新和wii和wii', 'u之间的数据传输服务仍可使用，但也将在未来的某个时间取消。']",2,2
+"['B-OtherPROD', 'I-OtherPROD']","['雅達利st（英語：atari', 'st）是一款家用與個人用電腦，在1985年至1990年代早期是非常成功的產品。']",2,2
+['B-OtherPROD'],['triforce最初被认为有gamecube两倍大小的1t-sram（48mb而不是24mb），但后来有人通过拆卸分析triforce基板证明此说法有误。'],1,1
+"['B-OtherPROD', 'I-OtherPROD']","['intel', '8008為世界上第一款八位元處理器。']",2,2
+"['O', 'B-OtherPROD', 'O', 'O', 'B-OtherPROD', 'O']","['roland', 'tr-808', 'rhythm', 'compose', '俗稱808、tr-808', '是roland公司在1980年至1983年期間製造的鼓機，這是最早允許使用者寫程式節奏而不是使用預設模式的鼓機之一。']",6,6
+"['B-OtherPROD', 'I-OtherPROD', 'O', 'O']","['xbox', 'one', '（簡稱', 'xone）是一台由微軟推出的家用電子遊戲機，2013年11月在北美與歐洲首度發行。']",4,4
+"['B-OtherPROD', 'I-OtherPROD']","['playstation', '5（官方縮寫：ps5）是索尼互动娱乐于2020年11月12日上市的家用電子遊樂器。']",2,2
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","[""what's"", 'going', 'on為摩城靈魂歌手馬文·蓋伊於1971年5月21日所發行的其個人第11張專輯，其內容多與當時的社會時事有關，內容提及越戰、毒品、以及貧困等等。']",3,3
+['B-MusicalWork'],['〈heartless〉是加拿大歌手威肯的一首歌曲，收錄於他的第四張錄音室專輯《黑潮時刻》。'],1,1
+['B-MusicalWork'],['intermezzo檔案系統亦受到coda的影響。'],1,1
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork', 'I-MusicalWork', 'O', 'O']","['《all', 'along', 'the', 'watchtower》（译名：《沿着瞭望塔》）是美国唱作人鲍勃·迪伦的一首歌曲，在1967年被收录于专辑《john', 'wesley', 'harding》中首次发行。']",6,6
+"['B-MusicalWork', 'I-MusicalWork', 'O', 'B-MusicalWork', 'I-MusicalWork']","['《the', 'rose》是一首由amanda', 'mcbroom創作，歌手bette', 'midler為1979年電影《the', 'rose》錄製的一首經典流行歌曲。']",5,5
+"['B-MusicalWork', 'I-MusicalWork']","['《come', 'together》（一起來）是由英國搖滾樂團披頭四成員約翰·藍儂創作、收錄於專輯《艾比路》的1969年歌曲。']",2,2
+['B-MusicalWork'],"[""《深陷情网》（英語：fallin'）是美国节奏蓝调及灵乐歌手艾莉西亞·凱斯创作录制发行的第一支单曲。""]",1,1
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","['发行后，《led', 'zeppelin', 'ii》在商业上很成功，是乐队第一张在英国和美国的排行榜上登顶的专辑。']",3,3
+"['B-MusicalWork', 'B-MusicalWork']","['《非洲时刻》（英語：waka', 'waka），是一首由哥伦比亚歌手夏奇拉与南非乐队清新土地共同演唱的歌曲。']",2,2
+"['B-MusicalWork', 'I-MusicalWork']","['《超人氣》（英译：the', 'fame）是美國創作歌手女神卡卡的首張錄音室專輯。']",2,2
+['B-MusicalWork'],['＂jingle＂在廣告影片中是片尾的短音樂，通常長3至5秒，有的有詞，有的僅有音樂，＂jingle＂是用來做為商品或企業的識別。'],1,1
+"['B-MusicalWork', 'O', 'B-MusicalWork']","['中低底盤公車（英語：step', 'entrance', 'bus，香港稱低地台巴士，台湾称中低底盘公车），是指車門只有1-2梯級的巴士。']",3,3
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","['〈甜蜜一日〉（英語：one', 'sweet', 'day）是美國女歌手瑪麗亞·凱莉和黑人男子樂團大人小孩雙拍檔共同合作演唱的歌曲，於1995年11月14日發行單曲。']",3,3
+['B-MusicalWork'],['香港1944年，為日佔時期第3年，香港人口不斷減少；燃料供應陷於低谷，於8月月底至9月月底暫停全香港電力供應達一個月，香港頓成黑暗世界，香港市民僅能夠以木油燈和松香燭照明。'],1,1
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","['《讓它去吧》（英語：let', 'it', 'be）又稱為《讓它去》，是英國搖滾樂團披头士發布的第十二张专辑，亦是最後一張录音室专辑，由制作人菲尔·斯佩克特監製。']",3,3
+"['B-MusicalWork', 'B-MusicalWork', 'B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","['《i', 'believe', 'i', 'can', 'fly》是一首由r&b歌手r·凱利於1996年是所作的歌。']",5,5
+"['O', 'B-MusicalWork']","['歌曲由麥狄森·碧兒、杰拉·伯恩斯、田小娟及赵美延共同演唱，詞曲則由riot', 'games音樂團隊製作完成，〈pop/stars〉']",2,2
+['B-MusicalWork'],['翅膀亦称翼，为鸟与昆虫等动物用来飞行的器官。'],1,1
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","['「do', 'it!', 'now」是日本的女子偶像組合「早安少女組。']",3,3
+['B-MusicalWork'],['gaga在2013年mtv音樂錄影帶大獎等场合表演了《applause》以宣傳專輯。'],1,1
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","['kill', ""'em"", 'all是美国重金属乐队金属乐队（metallica）的首张音乐专辑，发行于1983年7月。']",3,3
+"['B-MusicalWork', 'I-MusicalWork', 'O', 'O']","['《拯救我》（rescue', 'me）是美國女歌手瑪丹娜在1991年2月發行的歌曲，出自她的首張精選專輯《瑪丹娜精選輯》（the', 'immaculate', 'collection），〈拯救我〉在告示牌單曲榜最高名次為第9名。']",4,4
+['B-MusicalWork'],['觸技曲（toccata），亦稱托卡塔曲、展技，是一種通常由鍵盤樂器或撥弦樂器獨奏的樂曲。'],1,1
+"['B-MusicalWork', 'I-MusicalWork']","['《洋基歌》（yankee', 'doodle），全稱《洋基傻子歌》，是一首美国传统歌曲，其起源可追溯至美国七年战争时期。']",2,2
+['O'],['《why》是韓國女子團體4minute的第四張日语单曲，於2011年3月9日公開發售。'],1,1
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","['《led', 'zeppelin', 'iii》是英国摇滚乐队齐柏林飞艇的第三张录音室专辑，由大西洋唱片发行于1970年10月5日。']",3,3
+['B-MusicalWork'],['裸體，是指不穿著衣物的狀態，或稱裸、裸身。'],1,1
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","['《all', 'you', 'need', 'is', 'love》為英國樂隊披頭四的一首單曲，由約翰·藍儂創作。']",5,5
+"['O', 'O']","['謝怡芬（英語：janet', 'hsieh，1980年1月20日－），台灣女藝人、主持人、演員、模特兒、作家，藝名janet。']",2,2
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork']","['《angels', 'fall', 'first》是芬兰交响金属乐队夜愿的首张专辑。']",3,3
+"['B-MusicalWork', 'I-MusicalWork', 'I-MusicalWork', 'O', 'O', 'O', 'O']","['the', 'party', 'scene是美國流行龐克樂隊all', 'time', 'low的第一張錄音室專輯，於2005年7月19日透過唱片公司emerald', 'moon', 'records發行。']",7,7
+['B-MusicalWork'],['《同等族群》（英語：equals，香港译《熱血新世紀》，台湾译《禁愛世界》）是2015年美国科幻爱情剧情片，由德瑞克·多雷穆斯導演，迈克尔·普鲁斯、奇普·迪金斯、安·卢克、迈克尔·谢弗、雷德利·斯科特和杰·斯特恩制片，内森·派克根据多雷穆斯创作故事编剧。'],1,1
+['B-Disease'],['失明，俗称盲或者瞎，是指由生理或心理原因引发的人体视知觉缺陷。'],1,1
+"['O', 'O', 'B-SportsManager', 'I-SportsManager']","['傑克·羅斯福·羅賓森（英語：jack', 'roosevelt', 'robinson，1919年1月31日－1972年10月24日），暱稱傑基·羅賓森（jackie', 'robinson），是美國職棒大聯盟現代史上第一位非裔美國人球員，在1947年4月15日羅賓森穿著42號球衣以先發一壘手的身分代表布魯克林道奇隊上場比賽，之前黑人球員只獲准在黑人聯盟打球。']",4,4
+"['B-SportsManager', 'I-SportsManager', 'I-SportsManager']","['阿爾弗雷多·迪斯蒂法諾（alfredo', 'di', 'stéfano，1926年7月4日－2014年7月7日），前意大利裔阿根廷足球運動員及領隊，是五十年代末著名的球員，綽號“金箭頭”。']",3,3
+['B-OtherLOC'],['釘子因用途眾多而有著不同的形狀，常見的釘子包括平頭釘、大頭針、圖釘、曲頭釘、螺旋釘等。'],1,1
+"['B-CarManufacturer', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']","['dkw', '(dampf-kraft-wagen，英語：""蒸汽動力車""', '亦稱', 'deutsche', 'kinder-wagen', '英語：""德國兒童汽車"".', 'das-kleine-wunder,', '英語：""小奇蹟""', '或', 'des-knaben-wunsch,', '英語：""男孩的夢想""-', '曾製造二衝程發動機玩具)是一家德國的汽車和摩托車品牌。']",12,12
+"['B-CarManufacturer', 'O', 'O']","['哈雷·戴维森電單車公司（英語：harley-davidson', 'motor', 'company，又譯哈雷電單車公司，nyse：hog，舊代號為hdi）是一間美國的電單車製造商，總部在威斯康辛州密爾瓦基。']",3,3
+['B-CarManufacturer'],['waymo是一家研發自動駕駛汽車的公司，為alphabet公司（google母公司）旗下的子公司。'],1,1
+"['B-CarManufacturer', 'O', 'O', 'O']","['比雅久（義大利語：piaggio', '&', 'c.', 'spa）是一家義大利的摩托車與汽車製造大廠，旗下擁有七個品牌。']",4,4
+"['B-Vehicle', 'I-Vehicle', 'I-Vehicle']","['特斯拉y型（tesla', 'model', 'y）是特斯拉推出的一款紧凑型电动跨界休旅车（cuv）。']",3,3
+"['B-Vehicle', 'I-Vehicle']","['目前atr', '72型已經出售超過1,000架。']",2,2
+"['B-Vehicle', 'I-Vehicle']","['福斯捷达（英語：volkswagen', 'jetta）是由德国大众汽车生产的一款汽车。']",2,2
+"['B-Vehicle', 'I-Vehicle']","['奥迪a6（audi', 'a6）是一款由奥迪生产的豪华汽车，有轿车和旅行车两种车型，在此基礎上發展出奧迪s6和rs6。']",2,2
+"['B-Vehicle', 'I-Vehicle', 'O']","['福克f27友誼式客機（fokker', 'f27', '""friendship""）是一款由荷蘭飛機製造商福克生產的渦輪螺旋槳飛機，屬32座等級的小型客機，經常被用於區域性或離島航線等航程較短的路線。']",3,3
+"['B-Vehicle', 'I-Vehicle']","['保時捷卡宴（porsche', 'cayenne）是德國汽車製造商保时捷於2002年推出的一款中型休旅車，它是保時捷第一台5門休旅車，現時與大众touareg、奧迪q7、兰博基尼urus、宾利添越一个平台打造，在保留保時捷的外觀下融合了高性能元素。']",2,2
+"['B-Software', 'O', 'B-Software']","['suse提供了名为suse', 'linux', 'enterprise的企业级linux发行版，并参与包括opensuse在内的多个开源项目的开发。']",3,3
+"['B-Software', 'B-Software', 'B-Software', 'I-Software']","['在语法上，turbo', 'pascal吸取了其他语言如c等的特性，简化了标准pascal的语法；在功能上，turbo', 'pascal提供了包括屏幕控制、图形处理、系统调用等有用的函数库（turbo', 'pascal中称为单元）。']",4,4
+"['B-Software', 'B-Software']","['google阅读器（google', 'reader）曾是google公司旗下一个基于网络的聚合器，能在线或者离线阅读atom和rss。']",2,2
+['B-Software'],['它可以讓使用者以智慧型手機拍下相片後將不同的滤镜效果添加到相片上再分享至instagram的伺服器，或facebook、twitter、tumblr及flickr等社群媒體。'],1,1
+['B-Software'],['但唯有librarians以及雇員可以編輯修改書目資料，註冊用戶無此權限，必須向goodreads官方申請資格，官方會審核用戶閱讀量及電子申請函核定是否成為librarians，librarians與雇員的其一相異處'],1,1
+"['B-Software', 'O']","['2022年6月，telegram推出了付费的telegram', 'premium，標價4.99美元每月。']",2,2
+"['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-Software', 'O', 'O', 'O']","['在', 'apple', '宣布启动', 'mac', '迁移至applesilicon', '平台后，首个支持', 'applesilicon', '的', 'macos', 'big', 'sur', '于2020年6月7日发布。']",12,12
+['B-Software'],['xfce由許多彼此獨立的組件所構成，除了本身，還有第三方的程式使用xfce的程序庫，如文字編輯器mousepad、多媒體播放程式parole與終端模擬器。'],1,1
+['B-Software'],['linux和windows提供代码的软件ntfs-system，可用于读写ntfs文件。'],1,1
+"['B-Software', 'B-Software', 'O']","['2019年6月4日，苹果宣布不再在后续macos、ios等系统中提供itunes，转而将其拆分为包含原apple', 'music和itunes', 'store的“音乐”、包含原电视节目的“tv”和包含原播客的“播客”三款应用。']",3,3
+['B-Software'],['nokia與很多開源軟件項目（如linux內核，debian，gnome）合作，共同開發maemo平台。'],1,1
+"['B-Software', 'I-Software']","['《國際足盟大賽18》（英语：fifa', '18，中国大陆和香港常用英文，台湾译作“國際足盟大賽18”）是一款由ea加拿大、ea罗马尼亚开发由美商藝電发行的足球電子遊戲。']",2,2
+['B-Software'],['crunchyroll，簡稱cr，是美国的一家提供东亚相关流媒体影视服务和国际交流社区的网站。'],1,1
+"['B-Software', 'B-Software', 'O']","['由於新功能會先在chromium上測試，等待認證後才會應用在google', 'chrome上，所以chromium相當於google', 'chrome的先行版。']",3,3
+['B-Software'],"['mathtype与常见文字处理工具紧密结合，支持ole（对象的链接与嵌入），可以在任何支持ole的文字处理系统中调用（从主菜单中选择""插入->对象""在新对象中选择""mathtype""），帮助用户快速建立专业化的数学技术文档，对word或wps等文字处理系统的支持相当好。']",1,1
+['B-Software'],['jira这个名字并不是一个缩写，而是截取自“gojira”，日文的哥斯拉发音。'],1,1
+['B-Software'],['此外，redmine也可以同時處理多個项目。'],1,1
+"['B-Software', 'O']","['ncurses（new', 'curses）是一个程序库，它提供了api，可以允许程序员编写独立于终端的基于文本的用户界面。']",2,2
+['B-Software'],['nethack是一款最初在1987年發佈的roguelike單人遊戲，拥有由ascii字符组成的图形界面。'],1,1
+"['O', 'O', 'O', 'O', 'O', 'B-Software', 'B-Software', 'I-Software', 'O', 'O', 'O', 'O']","['《惡靈古堡7', '生化危機》（日版名：バイオハザード7', 'レジデント', 'イービル，biohazard', '7', 'resident', 'evil，英文版名：resident', 'evil', '7:', 'biohazard，中国大陆译作“生化危机7”，香港译作“生化危機7', '惡靈古堡”，台湾译作“惡靈古堡7', '生化危機”）是一款由卡普空開發與發行的《惡靈古堡系列》恐怖遊戲。']",12,12
+"['B-Software', 'B-Software']","['android', '12是行動作業系統android的第十二个主要版本和第十九個版本，由google領導的開放手機聯盟開發。']",2,2
+['B-Software'],['kubernetes（常简称为k8s）是用于自动部署、扩展和管理「容器化（containerized）应用程序」的开源系统。'],1,1
+"['B-Software', 'B-Software', 'B-Software', 'O']","['2000年开始，拉里·沃尔著手開發perl', '6來作為perl的後繼，perl', '6語言的語法有很多轉變，也被視為perl家族中的另一個語言（perl', '6於2019年更名為raku）。']",4,4
+"['B-Software', 'O']","['weverse（韓語：위버스）是由韓國hybe旗下公司weverse', 'company開發營運的全球粉絲社群平台，於2019年正式上線。']",2,2
+['B-Software'],['freedos由许多不同的独立程序组成，这些程序就是整个freedos项目中的“包”。'],1,1
+"['B-Software', 'B-Software']","['自诞生以来，emacs演化出了众多分支，其中使用最广泛的两种分别是：1984年由理查·斯托曼发起并由他维护至2008年的gnu', 'emacs，以及1991年发起的xemacs。']",2,2
+"['B-Software', 'I-Software', 'O', 'O']","['《nba', '2k15》是一款由visual', 'concepts公司制作、2k', 'sports发行的篮球类电子游戏。']",4,4
+['B-Software'],['postgresql是一个開源的物件-關聯式資料庫管理系统，在類似bsd授權與mit授權的postgresql授權下发行。'],1,1
+['B-Software'],['beos是一种由be公司针对多媒体使用所開發的作業系統。'],1,1
+['B-Software'],['gnome是由志願貢獻者和受僱貢獻者組成的gnome計劃開發，其最大的公司貢獻者為紅帽公司。'],1,1
+"['B-Software', 'B-Software', 'O']","['spotify提供免費增值服务模式，有两种串流音乐：spotify', 'free（160kbit/s）和spotify', 'premium（320kbit/s以上）。']",3,3
+['B-Software'],['雖然先進出版公司是其最大股東，但reddit是獨立運作的。'],1,1
+['B-Software'],['如今napster以经营付费服务为主，而免费的napster的流行和回响使其在电脑界和娱乐业里成为一个传奇的象征。'],1,1
+"['B-Software', 'O']","['flickr為一家提供圖片分享的網路相簿，是web', '2.0的最佳利用例子之一。']",2,2
+['B-Software'],['latex使用tex作为它的格式化引擎，当前的版本是latex2e（写作“latex2ε”）。'],1,1
+['B-Software'],['由于typescript是javascript的严格語法超集，因此任何現有的javascript程式都是合法的typescript程式。'],1,1
+"['B-Software', 'O', 'B-Software']","['它會利用一種名叫「patch', 'file」（有時直接被稱為', 'patch）的文字檔案，來更新文字檔案。']",3,3
+['B-Software'],['因为维基百科是全球最大的网站之一，需要mediawiki能为开发者实现通过多层次的实现可伸缩性缓存和数据库响应，对开发者来说，这一直是一个让他们很头疼的大问题，而mediawiki很好的解决了这一问题。'],1,1
+['B-Software'],['pentadactyl是vimperator派生的firefox浏览器扩展，旨在为能流利使用键盘的用户提供更有效的用户界面。'],1,1
+"['O', 'O', 'B-Software']","['它是dos作業系統家族中最著名的一個，在windows', '95以前，dos是ibm', 'pc及兼容机中的最基本配备，而ms-dos则是个人电脑中最普遍使用的dos操作系统。']",3,3
+['B-Software'],['在電腦科學中，lint是一種工具程式的名稱，它用來標記原始碼中，某些可疑的、不具結構性（可能造成bug）的段落。'],1,1
+['B-Software'],['同时apis和dom已经成为html5中的基础部分了。'],1,1
+"['B-Software', 'O', 'B-Software']","['kicad', '是一款用于印刷电路板设计的自由软件，最初由法国人jean-pierre', 'charras于1992年推出，现由kicad开发者团队维护。']",3,3
+"['O', 'O', 'O', 'O', 'O', 'B-Software', 'O', 'O', 'B-Software', 'O', 'O', 'B-Software', 'O', 'O']","['2011年，amiga', 'inc.', '与', 'hyperion', '娱乐签订协议，使后者开发', 'amigaos', '4，并与2009年，达成协议，赋予', 'hyperion', '对amigaos', '3.1', '独占的、永久的、全球性的许可以使之可继续开发并销售', 'amigaos', '4', '及其后续版本。']",14,14
+"['B-Software', 'B-Software', 'I-Software']","['2013年12月30日，微軟宣布，99天後，也就是2014年4月8日，終止對windows', 'xp的支援服務，windows', 'xp因此正式退役。']",3,3
+['B-Software'],['blender是专业的自由及开放源代码三维计算机图形軟體。'],1,1
+['B-Software'],['如果只是安装并使用mysql，甚至修改并使用mysql，无论是否收费；或者软件中不包含mysql，软件的用户自行安装mysql；或者使用gpl协议的开源软件产品中包含了mysql，这些情形可能使用社区版mysql。'],1,1
+"['O', 'O', 'O', 'B-Software', 'O', 'O']","['至2012年9月，全球約有', '2.2%', '的網站由', 'drupal', '製作，佔所有內容管理系统的', '7%。']",6,6
+"['B-Software', 'B-Software', 'I-Software']","['最初的简称是vi', 'imitation，随着功能的不断增加，正式名称改成了vi', 'improved。']",3,3
+"['B-Software', 'B-Software']","['google+（google', 'plus，簡稱：g+或gplus）是google公司推出的社交網站與身份服務；除社交網站身份外，google也將google+視為其旗下眾多服務之間社交層面的補強，與傳統社交網站僅能登入單一網站的概念不同。']",2,2
+"['B-Software', 'B-Software', 'I-Software']","['itunes', 'store在2011年第一季的營收達到近14億美元；至2011年10月4日為止，已有超過160億首歌曲從itunes', 'store中銷售出去。']",3,3
+"['B-Software', 'O', 'B-Software']","['後來86-dos被微软收購，ms-dos和ibm', 'pc', 'dos就是從86-dos發展而來。']",3,3
+"['B-Software', 'O']","['aida64是一个运行在microsoft', 'windows操作系统上的系统信息、诊断和审计程序，用于显示计算机的组件的详细信息。']",2,2
+['B-Software'],"['企業級環境通常基於各種理由選擇和使用openvms，包括郵件服务器、網絡伺服、製造業、運輸控制、監視、關鍵應用及數據庫,尤其是重視系統持續在線時間及數據可訪問性的領域。']",1,1
+['B-Software'],['os/2是由微软和ibm公司共同创造，后来由ibm单独开发的一套操作系统。'],1,1
+"['B-Software', 'I-Software', 'O']","['autodesk', 'inventor', '是一個電腦輔助設計（電腦輔助製圖）應用程序，用來進行3d機械設計、模擬、顯示、與儲存。']",3,3
+"['B-Software', 'O']","['在大部分的系統上，audacious已預設安裝好一套plugin，提供播放一些音樂格式的能力，如mp3、ogg', 'vorbis、flac等。']",2,2
+['B-Software'],['此賽事於2009年起廢除，換言之2008年歐洲足協圖圖盃是最後一屆的圖圖盃。'],1,1
+['B-Software'],['利用latex等终端软件，tex就能够排版出精美的文本以幫助人們辨認和尋找。'],1,1
+['B-Software'],['使用者可以关注其他的会员并在自己的页面上看到关注会员发表的文章，亦可转发他人在tumblr上的文章。'],1,1
+"['B-Software', 'I-Software', 'I-Software']","['google', 'native', 'client（縮寫為nacl），是一个由谷歌所發起的開放原始碼計劃，採用bsd许可证。']",3,3
+"['B-Software', 'I-Software', 'O']","['《nhl', '2003》是一款由艺电加拿大制作、ea', 'sports发行的体育类游戏。']",3,3
+"['B-AerospaceManufacturer', 'O', 'O', 'O', 'O', 'O']","['巴西航空工業有限公司（葡萄牙語：embraer', 's.a.，全稱empresa', 'brasileira', 'de', 'aeronáutica', 's.a.），是巴西的一家航空工業集團，成立于1969年，业务范围主要包括航空業的设计制造以及航空服务。']",6,6
+"['B-AerospaceManufacturer', 'I-AerospaceManufacturer', 'O']","['貝宜系統有限公司（英語：bae', 'systems', 'plc），通稱英國航太系統公司，是一家總部設在英國倫敦的跨國軍火工業與航空太空設備公司。']",3,3
+['B-AerospaceManufacturer'],['以英國宇航為主體於1999年與英國通用電氣子公司馬可尼電子系統合併，名稱由英國航太首字母縮略字「bae」和馬可尼電子系統的「systems」組合而成。'],1,1
+['B-AerospaceManufacturer'],['中国航空工业集团有限公司，简称航空工业或avic，（原简称中航工业），是中华人民共和国一家主要从事航空工业研究、设计、制造的特大型中央企业。'],1,1
+['B-AerospaceManufacturer'],['aeg，德國電器公司，曾经是世界上最大的电器康采恩。'],1,1
+"['B-AerospaceManufacturer', 'O', 'O', 'O', 'O', 'O', 'O']","['atr（法語：avions', 'de', 'transport', 'régional，義大利語：aerei', 'da', 'trasporto', 'regionale）為一家由意大利的aeritalia（已併入李奧納多公司）及法國的法國航太（已併入空中巴士集團）合組的飛機製造商，雙方各持有50%股權。']",7,7
+['B-Food'],['醋，舊稱為醯（xī）、苦酒等，是烹飪中常用的一種液體酸味調味料。'],1,1
+['B-Food'],['糕点品种多样，月饼、蛋糕、酥饼等均属糕点。'],1,1
+['B-Food'],['橙树的果实，也就是橙可以直接生吃，或是榨成橙汁和有香气的橙皮的来源。'],1,1
+['B-Food'],"['自從第一種酵母於數億年前出現，現時已辨識出1,500個酵母的物种，佔所有已描述的真菌物種的1%。']",1,1
+"['O', 'B-Food']","['大豆（学名：glycine', 'max），古称菽（shū），是豆科大豆属植物，其种子含有丰富的蛋白质，此名词一般都指其种子而言。']",2,2
+['B-AnatomicalStructure'],['屌（读音：diǎo；粵語：diu2）原本的意思是男性的外生殖器，常用做骂人的粗话。'],1,1
+"['B-AnatomicalStructure', 'O']","['喉頭（larynx、voice', 'box）是哺乳類頸部的一個器官，用於保護氣管，或是作為發聲構造。']",2,2
+['B-AnatomicalStructure'],['同一植物上着生的花的组合称为花序。'],1,1
+['B-AnatomicalStructure'],['舌（舌頭）是口腔底的肌肉，帮助咀嚼、吞咽、構音和感受味觉。'],1,1
+['B-AnatomicalStructure'],['茎下接根，通过木质部将根部吸收到的水分和礦物質往上运输到各部分。'],1,1
+['B-AnatomicalStructure'],['肘尖的突出物是尺骨鹰嘴，而肘内部的外表构造称为肘前窝。'],1,1
+['B-AnatomicalStructure'],['鳃的位置不定：蠕虫和蟹的鳃在它们的肢体，贝壳动物的鳃则在它们的外套腔中，鱼的鳃在鳃裂。'],1,1
+"['B-MedicalProcedure', 'O', 'O', 'B-MedicalProcedure', 'O']","['pet-ct（positron', 'emission', 'tomography–computed', 'tomography；pet-ct；pet/ct）全称“正电子发射断层扫描/x射线计算机断层成像', '”，是筛查全身早期肿瘤的方法。']",5,5
+['B-MedicalProcedure'],['中國傳統女性的髻款式包括雲髻、盤龍髻、墜馬髻、長圓髻（將髮向背平舖，髮尾盤成一顆圓球）、倭墮髻、鑽天髻、半翻髻、回鶻髻、飛天髻、反綰髻、同心髻、懶髻、流蘇髻（傳輕雲所創）、靈蛇髻、螺髻、螺絲髻、朝天髻（孟昶寵妃李豔娘創，宋代流行）、峨髻（又稱高髻）、髽髻（又稱抓髻）、椎髻及見於少女的雙平髻等等。'],1,1
+"['O', 'O', 'B-MedicalProcedure']","['心肺復甦術（cardiopulmonary', 'resuscitation,', '簡稱cpr）是一种救助心搏骤停病患的急救措施，通过人工保持脑功能直到自然呼吸和血液循环恢复。']",3,3
+"['B-SportsGRP', 'I-SportsGRP']","['2004年，聯盟於夏洛特成立一支新球隊：夏洛特山貓（charlotte', 'bobcats）。']",2,2
+"['B-SportsGRP', 'I-SportsGRP', 'I-SportsGRP']","['纽约尼克斯（英語：new', 'york', 'knicks，簡稱：nyk），是一支位於美國紐約州紐約市的nba籃球隊，分屬於東區的大西洋組，是nba的創始球隊之一，主場為麥迪遜花園廣場。']",3,3
+"['B-SportsGRP', 'I-SportsGRP']","['明尼蘇達灰狼（英語：minnesota', 'timberwolves），是一支位於美國明尼蘇達州明尼亞波利斯的nba籃球隊，分屬於西區的西北組，主場為標靶中心。']",2,2
+"['B-Drink', 'O']","['酒，又稱酒精飲料（英語：alcoholic', 'drink），是乙醇含量高于0.5%的饮料。']",2,2
+['B-Medication/Vaccine'],['虽然铁容易反应，但电解产生的高纯铁有较好的抗腐蚀性。'],1,1
+['B-Medication/Vaccine'],['地球上最常見的鈣化合物是存在于石灰岩和早期海洋生物的化石殘骸的碳酸鈣。'],1,1
+['B-Medication/Vaccine'],['純銅是柔軟的金屬，表面剛切開時為紅橙色帶金屬光澤、延展性好、導熱性和導電性高，因此在電纜、電氣和電子元件是最常用的材料，也可用作建築材料，以及組成眾多種合金，例如用於珠寶的紋銀，用於製作船用五金和硬幣的白銅以及用於應變片和熱電偶的康銅。'],1,1
+['B-Medication/Vaccine'],['香一般指以木材粉末與一些添加的香料、藥劑、粘合劑做成的用於燃燒的香是通過燃燒來發揮作用的，稱為焚香（或燒香），將香粉裝入容器中燃燒，稱捻香。'],1,1
+['B-Clothing'],['与披肩或斗篷不同的是，长袍通常拥有袖子。'],1,1
+"['B-Clothing', 'B-Clothing']","['袋會因著用途的不同也會有多種不同的名稱，如:', '用於盛載個人隨身物品的手袋、衣服內的口袋、用於存放紙和工作文件的公事包、用於存放金錢與證件的錢包、學生上學時用於盛載教科書的書包、購物時用於盛載物品的膠袋與環保袋、戶外活動時用於攜帶或者搬運重物的背囊、用於保存物品的夾鏈袋、用於防洪的沙袋、發生交通意外時用於保護駕駛者和乘客安全的安全氣囊、在露營時使用的睡袋等。']",2,2
+['B-Clothing'],['在許多文化中男女都會著裙，但是基於線條搭配審美觀念，以至後來普遍男性認為穿裙的長度和重量，對于行動和工作不甚方便，裙因此常被視為女性的衣著，但也有例外。'],1,1
+['B-Symptom'],['皮疹的表现包括有荨麻疹、口腔/外阴溃疡、冻疮样皮疹、鱼鳞病样丘疹、红斑、眶周水肿、脓疱疹、坏疽性脓皮病、网状青斑等。'],1,1
