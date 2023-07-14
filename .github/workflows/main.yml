@@ -21,6 +21,7 @@ jobs:
 
       - name: Set up SSH keys
         run: |
+          git config --global --add url."git@github.com:".insteadOf "https://github.com/"
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
@@ -28,4 +29,5 @@ jobs:
 
       - name: Clone repository on custom server
         run: |
+          git config --global --add url."git@github.com:".insteadOf "https://github.com/"
           ssh -i ~/.ssh/id_rsa root@95.164.86.243 "git clone https://github.com/amirsartipi13/MultiCoNER-aug.git"
