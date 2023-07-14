@@ -38,7 +38,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - github-action
 
 jobs:
   deploy:
