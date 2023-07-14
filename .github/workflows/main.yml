@@ -1,0 +1,41 @@
+name: Run FastAPI with Docker Compose
+
+on:
+  push:
+    branches:
+      - github-action
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          repository: amirsartipi13/MultiCoNER-aug
+          # token: ${{ secrets.GITHUB_TOKEN }}
+          token: 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
+          ssh-key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCU9EJnHYCfCU1B/ztQyiA10YWCA+Bn+LAuji4TVMl0n7fPC5CeQT2zz0s6Icu1WUnsEECYFbvkR+7pHQLMLbGG7hYbDpR6sVfomxdfa/M7TzRbg/ZP/vlJt0J3BS5pXkvG2y4DWqtHZCD2EX2S8nngW0e4tVjJa2oIfr7HKSEGWmoQVeC8dU9sXidwKsVDXrRRK94vzwfj+lknA8K9LKxY9/ssi+xnFov3OnPL6g7CJAOsM9ncXYVwayC1Q/sZTzboOIG3Jp+ZOMgw+FIu2sRpZunSb1KneRxn1657fdWKGYc0BDUO6dJB5BgEQx4JktJpnJk4Og2iz8s/hgiAcTAb
+
+      - name: Set up environment variables
+        run: |
+          echo "HOST_IP=95.164.86.243" >> $GITHUB_ENV
+          # echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> $GITHUB_ENV
+          sshpass -p H0o6cj5PTA8T ssh -o StrictHostKeyChecking=no root@95.164.86.243
+          git clone git@github.com:amirsartipi13/MultiCoNER-aug.git
+          cd agent
+          docker-compose up --build -d 
+
+      # - name: Install Docker
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y docker.io
+
+      # - name: Install Docker Compose
+      #   run: |
+      #     sudo apt-get install -y docker-compose
+
+      # - name: Build and Run FastAPI app with Docker Compose
+      #   run: |
+      #     cd your_repository_directory
+      #     docker-compose up -d
