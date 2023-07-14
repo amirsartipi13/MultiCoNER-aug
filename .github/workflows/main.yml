@@ -1,33 +1,72 @@
-name: Clone Repository
+# name: Clone Repository
+
+# on:
+#   push:
+#     branches:
+#       - github-action
+#   pull_request:
+#     branches:
+#       - main
+
+# jobs:
+#   clone:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
+#         with:
+#           repository: amirsartipi13/MultiCoNER-aug
+#           token: ${{ secrets.GIT_TOKEN }}
+
+#       - name: Set up SSH keys
+#         run: |
+#           git config --global --add url."git@github.com:".insteadOf "https://github.com/"
+#           mkdir -p ~/.ssh
+#           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+#           chmod 600 ~/.ssh/id_rsa
+#           ssh-keyscan -H 95.164.86.243 >> ~/.ssh/known_hosts
+
+#       - name: Clone repository on custom server
+#         run: |
+#           git config --global --add url."git@github.com:".insteadOf "https://github.com/"
+#           ssh -i ~/.ssh/id_rsa root@95.164.86.243 "git clone https://github.com/amirsartipi13/MultiCoNER-aug.git"
+
+
+name: Deploy
 
 on:
   push:
     branches:
-      - github-action
-  pull_request:
-    branches:
       - main
 
 jobs:
-  clone:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Log into GitHub Container Registry
+        uses: docker/login-action@v1
         with:
-          repository: amirsartipi13/MultiCoNER-aug
-          token: ${{ secrets.GIT_TOKEN }}
+          registry: ghcr.io
+          username: ${{ secrets.GIT_USERNAME }}
+          password: ${{ secrets.GIT_TOKEN }}
 
-      - name: Set up SSH keys
-        run: |
-          git config --global --add url."git@github.com:".insteadOf "https://github.com/"
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H 95.164.86.243 >> ~/.ssh/known_hosts
+      - name: SSH into the deployment server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USERNAME }}
+          password: ${{ secrets.SERVER_PASSWORD }}
 
-      - name: Clone repository on custom server
-        run: |
-          git config --global --add url."git@github.com:".insteadOf "https://github.com/"
-          ssh -i ~/.ssh/id_rsa root@95.164.86.243 "git clone https://github.com/amirsartipi13/MultiCoNER-aug.git"
+          # Or, you can use SSH key-based authentication instead of password
+          # private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+          script: |
+            ssh-keyscan ${{ secrets.GIT_HOST }} >> ~/.ssh/known_hosts
+            cd /path/to/destination/directory
+            git clone https://github.com/${{ secrets.GITHUB_USERNAME }}/MultiCoNER-aug.git
+            cd MultiCoNER-aug
